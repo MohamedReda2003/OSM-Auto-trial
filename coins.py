@@ -44,11 +44,11 @@ def run(playwright: Playwright) -> None:
         # Click [placeholder="Manager name"]
         page.locator("[placeholder=\"Manager name\"]").click()
         # Fill [placeholder="Manager name"]
-        page.locator("[placeholder=\"Manager name\"]").fill("mohamedredazhar")
+        page.locator("[placeholder=\"Manager name\"]").fill("Username")
         # Click [placeholder="Password"]
         page.locator("[placeholder=\"Password\"]").click()
         # Fill [placeholder="Password"]
-        page.locator("[placeholder=\"Password\"]").fill("he3eyetR#2003")
+        page.locator("[placeholder=\"Password\"]").fill("password")
         # Click #login
         page.locator("#login").click()
   
